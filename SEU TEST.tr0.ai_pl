@@ -1,0 +1,38 @@
+program       aim
+command       calculator
+data_file     SEU TEST.tr0.p2
+created       03-08-2025 (01:26:35)
+machine_id    1001
+byte_order    little_endian
+fp_format     ieee
+xname         t
+xunits        s
+xrange        I 0 6.000000052353n
+ynames
+   v(0)
+   i(vdd)
+   v(bl)
+   i(vwl)
+   v(blb)
+   i(vbl)
+   i(vblb)
+   v(q)
+   v(qb)
+   v(vdd)
+   v(wl)
+yunits
+   V
+   A
+   V
+   A
+   V
+   A
+   A
+   V
+   V
+   V
+   V
+ytype         real
+ncolumns      12
+npoints       57
+format        binary

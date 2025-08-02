@@ -1,0 +1,158 @@
+ ****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******                    
+  Copyright (c) 1986 - 2025 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: SEU_TESTING_MAIN.sp                                               
+  Command line options: C:\synopsys\Hspice_P-2019.06-SP1-1\WIN64\hspice.com -i SEU_TESTING_MAIN.sp -o C:\Users\travi\DSA\12TSram\SEU_TESTING_MAIN.lis -hpp
+  Start time: Sun Aug  3 01:31:57 2025
+  lic:  
+  lic: FLEXlm: SDK_12.3 
+  lic: USER:   travi                HOSTNAME: HIMANSHU 
+  lic: HOSTID: "8cf8c5b11dcc"       PID:      40368 
+  lic: Using FLEXlm license file: 
+  lic: 27000@HIMANSHU 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 30-dec-2030/2020.12 
+  lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@HIMANSHU 
+  lic:   
+  **warning** (SEU_TESTING_MAIN.sp:57) unknown command ".step" is ignored
+ 
+ ****** Advanced Analog Library - P-2019.06-SP1-1 (Sep 27 2019) ****** 
+  **warning** (SEU_TESTING_MAIN.sp:17) Both nodes of element vgnd are connected together; Line ignored.
+  **info** (SEU_TESTING_MAIN.sp:51) DC voltage reset to initial transient source value in source 0:i_seu. new dc=0.0000D+00
+  **warning** (nmos:m3 (SEU_TESTING_MAIN.sp:31)) Warning:  Acde = 0.27944 may be too small in BSIM4 model with w=9e-08 l=4.5e-08.
+  **warning** (SEU_TESTING_MAIN.sp:64) Duplicate .ic/.nodeset declaration for node q. Taking the .ic value 1.00
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+ **info** dc convergence successful at Newton-Raphson method 
+1****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******                    
+ ******  
+ * 12t radiation-hardened sram cell for the single event upset test
+
+ ****** operating point information tnom=  25.000 temp=  25.000 ******
+ ****** operating point status is all       simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:bl      =   0.      0:blb     =   1.0000  0:q       = 999.9990m
+ +0:qb      = 258.8732p 0:vdd     =   1.0000  0:wl      =   0.     
+
+ 
+runlvl= 3 sets ".opt sim_accuracy= 1"  
+ 
+  ******  Summary of Possible Problems in Netlist  *************** 
+  Negative resistor              0   
+  Negative capacitor             0   
+  Negative inductor              0   
+  Unconnected node               0   
+  Dangling terminal              0   
+  Non-rail bulk terminal         0   
+  Floating MOS gate              0   
+  Floating MOS bulk              0   
+  Floating BJT substrate         0   
+  Floating controlled input      0   
+  Floating current source nodes  0   
+  Source loop                    0   
+ 
+No Shorted elements  
+SSolve ...  
+  
+CT 2 
+Running 1 thread. 
+  
+   
+Running HSPICE Precision Parallel (HPP) 
+Auto-select transient simulation algortithm 
+.   
+0.1% time = 9.054771 ps ( etc = 0.0 sec, ett = 0.0 sec ) 
+( wall = 0.0 sec cpu = 0.0 sec s=-nan(ind) ) 
+10.0% time = 840.901065 ps ( etc = 0.0 sec, ett = 0.0 sec ) 
+( wall = 0.0 sec cpu = 0.0 sec s=-nan(ind) ) 
+20.0% time = 1.374315 ns ( etc = 0.0 sec, ett = 0.0 sec ) 
+( wall = 0.0 sec cpu = 0.0 sec s=-nan(ind) ) 
+30.0% time = 1.802585 ns ( etc = 0.0 sec, ett = 0.0 sec ) 
+( wall = 0.0 sec cpu = 0.0 sec s=-nan(ind) ) 
+40.0% time = 2.588160 ns ( etc = 0.0 sec, ett = 0.0 sec ) 
+( wall = 0.0 sec cpu = 0.0 sec s=-nan(ind) ) 
+50.0% time = 3.188160 ns ( etc = 0.0 sec, ett = 0.0 sec ) 
+( wall = 0.0 sec cpu = 0.0 sec s=-nan(ind) ) 
+60.0% time = 3.788160 ns ( etc = 0.0 sec, ett = 0.0 sec ) 
+( wall = 0.0 sec cpu = 0.0 sec s=-nan(ind) ) 
+70.0% time = 4.388160 ns ( etc = 0.0 sec, ett = 0.0 sec ) 
+( wall = 0.0 sec cpu = 0.0 sec s=-nan(ind) ) 
+80.0% time = 4.988160 ns ( etc = 0.0 sec, ett = 0.0 sec ) 
+( wall = 0.0 sec cpu = 0.0 sec s=-nan(ind) ) 
+90.0% time = 5.588160 ns ( etc = 0.0 sec, ett = 0.0 sec ) 
+( wall = 0.0 sec cpu = 0.0 sec s=-nan(ind) ) 
+100.0% time = 6.000000 ns ( etc = 0.0 sec, ett = 0.0 sec ) 
+( wall = 0.0 sec cpu = 0.0 sec s=-nan(ind) ) 
+ *************************  
+ 
+Resource Usage for Transient Analysis 
+CPU Time     0.02 sec   
+Peak Memory  0.00 Mb    
+  
+Wall Time Statistics:  
+  Transient Wall time                   = 0.0000e+00 
+  Transient Wall time per timestep      = 0.0000e+00 
+  Transient Wall time per timestep-node = 0.0000e+00 
+  Total CPU time                       = 0.0170 
+  Total CPU time per step              = 0.0003 
+ 
+ 
+ 
+
+          ***** job concluded
+ ******  
+ * 12t radiation-hardened sram cell for the single event upset test
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    12
+  Actual Threads Count       :     1
+
+
+  ****** Statistics of Ignored Elements ******
+  Voltage Sources :       1
+
+  ******  Circuit Statistics  ******
+  # nodes       =      55 # elements   =      17
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       4
+  # curr_srcs   =       1 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =      12 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           4
+  transient          0.00  6001          90          57  rev= 0 
+  readin             0.15
+  errchk             0.02
+  setup              0.02
+  output             0.00
+           peak memory used         77.59 megabytes 
+           total cpu time            0.25 seconds
+           total elapsed time        0.44 seconds
+           job started at     01:31:57 08/03/2025
+           job ended   at     01:31:57 08/03/2025
+           job total runtime         0.44 seconds
+
+
+  lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.19(s)

@@ -1,0 +1,19 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "01:31:57 08/03/2025 "
+* "netlist" "SEU_TESTING_MAIN.sp "
+* "runtitle" "* 12t radiation-hardened sram cell for the single event upset test"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ bl =   0.            
++ blb =   1.0000        
++ q = 999.9990m       
++ qb = 258.8732p       
++ vdd =   1.0000        
++ wl =   0.            
+***   END: Saved Operating Point ***                     
