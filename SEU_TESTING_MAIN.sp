@@ -1,4 +1,4 @@
-* 12T Radiation-Hardened SRAM Cell for the single event upset Test
+* Twelve Transistor Radiation-Hardened SRAM Cell for the single event upset Test
 * Technology: 45nm PTM Models
 ******RAVISHANKAR@2204205
 
@@ -75,6 +75,7 @@ I_SEU Q 0 PULSE(0 50u 1.5n 10p 10p 200p 5n)
 .probe V(Q) V(QB)
 
 .end
+
 
 
 
