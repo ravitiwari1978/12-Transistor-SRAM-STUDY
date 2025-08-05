@@ -1,0 +1,21 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "12:17:02 08/05/2025 "
+* "netlist" "12TSRAM_READ_DELAY.SP "
+* "runtitle" "* 12t sram cell netlist for the write and read delay measurements"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ bl =   0.            
++ blb =   1.0000        
++ q = 999.8639m       
++ qb = 287.1740u       
++ readnode = 468.2518m       
++ readwl =   0.            
++ vdd =   1.0000        
++ wl = 489.3206m       
+***   END: Saved Operating Point ***                     

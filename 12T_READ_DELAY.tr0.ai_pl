@@ -1,0 +1,42 @@
+program       aim
+command       calculator
+data_file     12T_READ_DELAY.tr0.p2
+created       05-08-2025 (12:19:37)
+machine_id    1001
+byte_order    little_endian
+fp_format     ieee
+xname         t
+xunits        s
+xrange        I 0 856.40039504398p
+ynames
+   v(readwl)
+   v(qb)
+   i(vblb)
+   i(vdd)
+   v(vdd)
+   i(vbl)
+   v(0)
+   v(wl)
+   i(vreadwl)
+   v(readnode)
+   v(q)
+   v(blb)
+   v(bl)
+yunits
+   V
+   V
+   A
+   A
+   V
+   A
+   V
+   V
+   A
+   V
+   V
+   V
+   V
+ytype         real
+ncolumns      14
+npoints       46
+format        binary

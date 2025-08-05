@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1' PARAM_COUNT=0
+.TITLE '* 12T SRAM Cell netlist for the Write and Read Delay Measurements'
+ read_delay       temper           alter#          
+  1.3060e-09        25.00000       1               
