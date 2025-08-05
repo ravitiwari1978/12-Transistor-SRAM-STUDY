@@ -1,0 +1,44 @@
+program       aim
+command       calculator
+data_file     12TSRAM_READ_OPERATION.tr0.p2
+created       05-08-2025 (12:48:41)
+machine_id    1001
+byte_order    little_endian
+fp_format     ieee
+xname         t
+xunits        s
+xrange        I 0 2.1025030605415n
+ynames
+   v(bl)
+   v(qb)
+   i(vblb)
+   i(vdd)
+   v(readnode)
+   v(vdd)
+   i(vbl)
+   v(0)
+   v(wl)
+   i(vwl)
+   i(vreadwl)
+   v(blb)
+   v(readwl)
+   v(q)
+yunits
+   V
+   V
+   A
+   A
+   V
+   V
+   A
+   V
+   V
+   A
+   A
+   V
+   V
+   V
+ytype         real
+ncolumns      15
+npoints       33
+format        binary
