@@ -1,0 +1,40 @@
+program       aim
+command       calculator
+data_file     12T_WRITE_DELAY.tr0.p2
+created       05-08-2025 (12:05:02)
+machine_id    1001
+byte_order    little_endian
+fp_format     ieee
+xname         t
+xunits        s
+xrange        I 0 2.0010000323367n
+ynames
+   v(bl)
+   i(vdd)
+   v(readnode)
+   v(vdd)
+   i(vbl)
+   v(0)
+   i(vwl)
+   v(blb)
+   v(q)
+   v(qb)
+   v(wl)
+   i(vblb)
+yunits
+   V
+   A
+   V
+   V
+   A
+   V
+   A
+   V
+   V
+   V
+   V
+   A
+ytype         real
+ncolumns      13
+npoints       74
+format        binary
