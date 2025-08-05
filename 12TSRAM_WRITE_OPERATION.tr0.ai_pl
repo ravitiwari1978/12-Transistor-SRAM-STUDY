@@ -1,0 +1,40 @@
+program       aim
+command       calculator
+data_file     12TSRAM_WRITE_OPERATION.tr0.p2
+created       05-08-2025 (13:13:27)
+machine_id    1001
+byte_order    little_endian
+fp_format     ieee
+xname         t
+xunits        s
+xrange        I 0 2.5099999856337n
+ynames
+   v(bl)
+   v(readnode)
+   v(vdd)
+   i(vbl)
+   v(0)
+   v(wl)
+   i(vwl)
+   v(blb)
+   v(q)
+   v(qb)
+   i(vblb)
+   i(vdd)
+yunits
+   V
+   V
+   V
+   A
+   V
+   V
+   A
+   V
+   V
+   V
+   A
+   A
+ytype         real
+ncolumns      13
+npoints       38
+format        binary

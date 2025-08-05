@@ -1,0 +1,20 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "13:09:09 08/05/2025 "
+* "netlist" "12TSRAM_WRITE_OPERATION.SP "
+* "runtitle" "* 12t sram cell netlist for write operation waveform (bl and blb)"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ bl =   1.0000        
++ blb =   0.            
++ q = 999.8644m       
++ qb =  94.7502p       
++ readnode = 468.2520m       
++ vdd =   1.0000        
++ wl =   0.            
+***   END: Saved Operating Point ***                     

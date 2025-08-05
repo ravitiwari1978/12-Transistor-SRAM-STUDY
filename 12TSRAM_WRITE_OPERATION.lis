@@ -1,0 +1,30 @@
+ ****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******                    
+  Copyright (c) 1986 - 2025 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: 12TSRAM_WRITE_OPERATION.SP                                        
+  Command line options: C:\synopsys\Hspice_P-2019.06-SP1-1\WIN64\hspice.com -i 12TSRAM_WRITE_OPERATION.SP -o C:\Users\travi\DSA\12TSram\12TSRAM_WRITE_OPERATION.lis -hpp
+  Start time: Tue Aug  5 18:10:42 2025
+  lic:  
+  lic: FLEXlm: SDK_12.3 
+  lic: USER:   travi                HOSTNAME: HIMANSHU 
+  lic: HOSTID: "8cf8c5b11dcc"       PID:      27788 
+  lic: Checkout request rejected by vendor-defined checkout filter. Feature:    
+   
+  lic: Using FLEXlm license files: 
+  lic: 27000@HIMANSHU 
+  lic: Unable to checkout (hspice) 
+  lic:   
+  lic: Checkout request rejected by vendor-defined checkout filter. Feature:    
+   
+  lic: Using FLEXlm license files: 
+  lic: 27000@HIMANSHU 
+  lic: Unable to checkout (hspicewin) 
+  lic:   
+           job total runtime         0.00 seconds
+
+
+ lic: total license checkout elapse time:        0.31(s)

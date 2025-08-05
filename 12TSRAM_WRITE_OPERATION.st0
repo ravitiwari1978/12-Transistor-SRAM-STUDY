@@ -1,0 +1,55 @@
+****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******
+Input File: 12TSRAM_WRITE_OPERATION.SP
+lic:
+lic: FLEXlm: SDK_12.3
+lic: USER:   travi                HOSTNAME: HIMANSHU
+lic: HOSTID: "8cf8c5b11dcc"       PID:      38896
+lic: Using FLEXlm license file:
+lic: 27000@HIMANSHU
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 30-dec-2030/2020.12
+lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@HIMANSHU
+lic:
+
+ init: begin read circuit files, cpu clock= 3.27E-01
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/behave/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/AD/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/XILINX/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TLINE/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/SIGNET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PCI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/LIN_TEC
+                         H/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/DI0/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/COMLINE
+                         /
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BURR_BR
+                         M/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BJT/
+       option post =     2.00
+       option nomod
+ init: end read circuit files, cpu clock= 3.33E-01 peak memory=      77 mb
+ init: begin check errors, cpu clock= 3.33E-01
+ init: end check errors, cpu clock= 3.42E-01 peak memory=      77 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 3.42E-01
+       establish matrix -- done, cpu clock= 3.42E-01 peak memory=      77 mb
+       re-order matrix -- done, cpu clock= 3.43E-01 peak memory=      77 mb
+ init: end setup matrix, cpu clock= 3.43E-01 peak memory=      77 mb
+ dcop: begin dcop, cpu clock= 3.44E-01
+ dcop: end dcop, cpu clock= 3.48E-01 peak memory=      77 mb tot_iter=      16
+C:\Users\travi\DSA\12TSram\12TSRAM_WRITE_OPERATION.tr0
+ sweep: tran tran0  begin, stop_t= 2.00e-08  #sweeps= 20001 cpu clock= 1.75e+09
+ tran: time= 2.5100e-09 tot_iter=     114 conv_iter=      38 cpu clock= -1.82e+06
+ tran: time= 4.2518e-09 tot_iter=     168 conv_iter=      66 cpu clock= -1.82e+06
+ tran: time= 6.5100e-09 tot_iter=     255 conv_iter=      90 cpu clock= -1.82e+06
+ tran: time= 8.2518e-09 tot_iter=     309 conv_iter=     118 cpu clock= -1.82e+06
+ tran: time= 1.0510e-08 tot_iter=     396 conv_iter=     142 cpu clock= -1.82e+06
+ tran: time= 1.2252e-08 tot_iter=     450 conv_iter=     170 cpu clock= -1.82e+06
+ tran: time= 1.4045e-08 tot_iter=     546 conv_iter=     194 cpu clock= -1.82e+06
+ tran: time= 1.6252e-08 tot_iter=     601 conv_iter=     223 cpu clock= -1.82e+06
+ tran: time= 1.8510e-08 tot_iter=     688 conv_iter=     247 cpu clock= -1.82e+06
+ sweep: tran tran0    end,  cpu clock=  -1.82e+06  peak memory=   77.59 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
